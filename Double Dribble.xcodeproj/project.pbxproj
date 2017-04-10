@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5AADEBD21E9C125400902221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AADEBD11E9C125400902221 /* AppDelegate.swift */; };
-		5AADEBD41E9C125400902221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AADEBD31E9C125400902221 /* ViewController.swift */; };
 		5AADEBD71E9C125400902221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AADEBD51E9C125400902221 /* Main.storyboard */; };
 		5AADEBD91E9C125400902221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AADEBD81E9C125400902221 /* Assets.xcassets */; };
 		5AADEBDC1E9C125400902221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AADEBDA1E9C125400902221 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		5AADEBCE1E9C125400902221 /* Double Dribble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Double Dribble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AADEBD11E9C125400902221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5AADEBD31E9C125400902221 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5AADEBD61E9C125400902221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AADEBD81E9C125400902221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AADEBDB1E9C125400902221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,85 @@
 		5AADEBD01E9C125400902221 /* Double Dribble */ = {
 			isa = PBXGroup;
 			children = (
-				5AADEBD11E9C125400902221 /* AppDelegate.swift */,
-				5AADEBD31E9C125400902221 /* ViewController.swift */,
-				5AADEBD51E9C125400902221 /* Main.storyboard */,
-				5AADEBD81E9C125400902221 /* Assets.xcassets */,
-				5AADEBDA1E9C125400902221 /* LaunchScreen.storyboard */,
-				5AADEBDD1E9C125400902221 /* Info.plist */,
+				5AADEBE31E9C144800902221 /* Storyboards */,
+				5AADEBEB1E9C148800902221 /* Helpers */,
+				5AADEBEA1E9C148200902221 /* Network */,
+				5AADEBE91E9C147700902221 /* ViewControllers */,
+				5AADEBE81E9C147000902221 /* Views */,
+				5AADEBE71E9C146800902221 /* Model Controllers */,
+				5AADEBE61E9C146300902221 /* Model */,
+				5AADEBE51E9C145D00902221 /* Sources */,
+				5AADEBE41E9C145800902221 /* Resources */,
 			);
 			path = "Double Dribble";
+			sourceTree = "<group>";
+		};
+		5AADEBE31E9C144800902221 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5AADEBD51E9C125400902221 /* Main.storyboard */,
+				5AADEBDA1E9C125400902221 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		5AADEBE41E9C145800902221 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5AADEBD81E9C125400902221 /* Assets.xcassets */,
+				5AADEBDD1E9C125400902221 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5AADEBE51E9C145D00902221 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5AADEBD11E9C125400902221 /* AppDelegate.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		5AADEBE61E9C146300902221 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5AADEBE71E9C146800902221 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		5AADEBE81E9C147000902221 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5AADEBE91E9C147700902221 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5AADEBEA1E9C148200902221 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		5AADEBEB1E9C148800902221 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +206,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AADEBD41E9C125400902221 /* ViewController.swift in Sources */,
 				5AADEBD21E9C125400902221 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
